@@ -1,128 +1,169 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Fuggles&family=Kaushan+Script&family=Lora&family=Montserrat:wght@500&family=Mulish:wght@200&family=Playfair+Display:ital,wght@1,400;1,500&family=Poppins&display=swap');
-
-
-a{
-    font-family:'Montserrat', sans-serif;
-    color: #5e068a ;
-}
-#slider_img1{
-    background-image: url('./img/sl1.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    min-width: 100%;
-}
-
-#slider_img2{
-    background-image: url('./img/sl2.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    min-width: 100%;
-
-} 
-.carousel h1{
-    font-weight: 700;
-    text-align: left;
-    margin-left: 150px;
-    font-size: 4vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
-}
-.carousel p{
-    width: 65%;
-    margin-left: 150px;
-    font-size: smaller;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;  
-}
-.slider_content{
-    margin-top: 60px;
-}
-
-.slider_btn a{
-    /* font-family:'Montserrat', sans-serif; */
-    background-color:  #5e068a;
-    text-decoration: none;
-    margin-left: 150px;
-    margin-top: ;   
-}
-.slider_btn a:hover{
-    background-color: #9f75b5b9;
-    transition: 1s;
-}
-.about-area p{
-   
-    line-height: 28px;
-    margin-bottom: 12px;
-    font-size: 15px;
-    max-width: 565px;
-}
-.about-area a{
-    text-decoration: none;
+#b1{
     background-color: #5e068a;
-   
-}
-.second-col h3{
-    font-size: 20px;
-    line-height: 25px;
-    margin-bottom: 15px;
-    font-weight: 700;
-    color: #5e068a;
-    margin-top: 20px;
-}
-div img{
-    height: 100%;
-}
-
-.gallery_body{
-    width: 340px;
-    height: 490px;
-    background-color: #ffff;
-    border: 2px solid black;
-    margin-bottom: 20px;
-}
-.gallery_body img{
-   width: 340px;
-    height: 190px;
+    color: white;
+    width: 150px;
+  }
+  
+  h1{
+    font-size: 60px;
+  }
+  
+  #p1{
+    font-size: 16px;
+  }
+  
+  #im1{
+    height: 600px;
+  }
+  
+  #b2{
+    background-color: #5e068a;
+    height: 55px;
+    width: 200px;
+    border-radius: 50px;
+    color: white;
     
-}
-.content h3{
-    font-size: 18px;
-    line-height: 25px;
-    margin-bottom: 15px;
+  }
+  
+  #bm{
+    background-color: #60058d;
+    height: 55px;
+    width: 170px;
+    border-radius: 50px;
+    color: white;
+  }
+  
+  
+  #b4{
+    background-color: #5e068a;
+    height: 58px;
+    width: 156px;
+    border-radius: 50px;
+    border: 2 px solid #5e068a;
+    color: white;
+  }
+  
+  
+  #gridb{
+    
+    height: 45px;
+    width: 130px;
+    border-radius: 50px;
+    border: 2px solid #5e068a;
+    background-color: #5e068a;
+    color: white;
+  }
+  
+  
+  
+  #borrow{
+    border: 15px #f8f9fa solid;
+    
+  }
+  
+  #rowbut{
+    background-color: #ffffff;
+    height: 55px;
+    width: 170px;
+    border-radius: 50px;
+    color:#5e068a;
     font-weight: 600;
-    color: #5e068a;
-    margin-top: 20px;
-
-}
-.content .desc{
-    font-size: 15px;
-    color: #414141;
+  }
+  
+  #rowbut:hover{
+    background-color: #5e068a;
+    height: 55px;
+    width: 170px;
+    border-radius: 50px;
+    color:#ffffff;
     font-weight: 600;
-    margin-bottom: 20px;
-}
-
-@media only screen and (max-width: 600px) {
+  }
+  
+  #hovraw:hover{ 
+    transform: scale(1.01);
+    
+  }
+  
+  #borrow:hover{ 
+    transform: scale(1.01);
  
-    .carousel h1{
-        margin-left: 20px;
-       
-    }
-    .carousel p{
-        margin-left: 20px;
-        line-height: 1.2;
-        margin-top: 0px;
-        font-size: 15px; 
-        width: 90%;
-    }
+  }
+  
+  
+  
+  
+  @media(orientation:portrait)
+  {
+  
    
-    .slider_btn a {
-       
-        margin-left: 20px;  
-        font-size: 10px; 
-        margin-top: 5px;
+  
+  
+    #b2{
+        height: 50px;
+        width: 100px;
+        font-size: smaller;
+        font-weight: lighter;
     }
+  
+    #b1{
+        width: 75px;
+    }
+  
+    .headc{
+        
+        font-size: large;
+    }
+  
+    .parac{
+        font-size: smaller;
+    }
+  
    
+  
+  
+    #bm{
+        height: 50px;
+        width: 100px;
+        font-size: smaller;
+        font-weight: lighter;
+    }
+  
+    #thumbs{
+        width: 100%;
+    }
+  
+    #pgr{
+        font-size: small;
+        font-weight: bold;
+    }
+  
+    #rowbut{
+        background-color: #ffffff;
+        height: 55px;
+        width: 100px;
+        border-radius: 25px;
+        color:#5e068a;
+        font-weight: 600;
+    }
+  
+    
+    
+  }
+  #pcaro{
+      font-size: large;
+      font-weight: bold;
+      line-height: 1.6;
+  
+  }
+  
+  #footh3{
+      color: white;
+      font-weight: bold;
+      font-size: x-large;
+  }
+  
+  
+  #foot{
+      color: white;
+      
   }
